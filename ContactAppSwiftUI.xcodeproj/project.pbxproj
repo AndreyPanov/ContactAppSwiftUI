@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E3E2D272A5B184C001959EC /* AddContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3E2D262A5B184C001959EC /* AddContactCell.swift */; };
 		0EEF2FBF2A51BB7700A2CE77 /* ContactAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEF2FBE2A51BB7700A2CE77 /* ContactAppSwiftUIApp.swift */; };
 		0EEF2FC12A51BB7700A2CE77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEF2FC02A51BB7700A2CE77 /* ContentView.swift */; };
 		0EEF2FC32A51BB7800A2CE77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EEF2FC22A51BB7800A2CE77 /* Assets.xcassets */; };
@@ -17,9 +18,12 @@
 		0EEF2FD82A51DA7E00A2CE77 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEF2FD72A51DA7E00A2CE77 /* ContactDetailView.swift */; };
 		0EEF2FDA2A51DAC200A2CE77 /* ContactDetailViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEF2FD92A51DAC200A2CE77 /* ContactDetailViewHeader.swift */; };
 		0EEF2FDC2A51DE1D00A2CE77 /* ContactDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEF2FDB2A51DE1D00A2CE77 /* ContactDetailCell.swift */; };
+		0EEF2FDE2A5332A100A2CE77 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEF2FDD2A5332A100A2CE77 /* AddContactView.swift */; };
+		0EEF2FE02A57458600A2CE77 /* AddContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEF2FDF2A57458600A2CE77 /* AddContactViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E3E2D262A5B184C001959EC /* AddContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactCell.swift; sourceTree = "<group>"; };
 		0EEF2FBB2A51BB7700A2CE77 /* ContactAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEF2FBE2A51BB7700A2CE77 /* ContactAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAppSwiftUIApp.swift; sourceTree = "<group>"; };
 		0EEF2FC02A51BB7700A2CE77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,6 +35,8 @@
 		0EEF2FD72A51DA7E00A2CE77 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
 		0EEF2FD92A51DAC200A2CE77 /* ContactDetailViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewHeader.swift; sourceTree = "<group>"; };
 		0EEF2FDB2A51DE1D00A2CE77 /* ContactDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailCell.swift; sourceTree = "<group>"; };
+		0EEF2FDD2A5332A100A2CE77 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
+		0EEF2FDF2A57458600A2CE77 /* AddContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 		0EEF2FCE2A51BC0B00A2CE77 /* AddContact */ = {
 			isa = PBXGroup;
 			children = (
+				0EEF2FDD2A5332A100A2CE77 /* AddContactView.swift */,
+				0EEF2FDF2A57458600A2CE77 /* AddContactViewModel.swift */,
+				0E3E2D262A5B184C001959EC /* AddContactCell.swift */,
 			);
 			path = AddContact;
 			sourceTree = "<group>";
@@ -199,8 +208,11 @@
 				0EEF2FDC2A51DE1D00A2CE77 /* ContactDetailCell.swift in Sources */,
 				0EEF2FDA2A51DAC200A2CE77 /* ContactDetailViewHeader.swift in Sources */,
 				0EEF2FD22A51BDBE00A2CE77 /* ContactListCell.swift in Sources */,
+				0E3E2D272A5B184C001959EC /* AddContactCell.swift in Sources */,
 				0EEF2FD02A51BC2400A2CE77 /* ContactListView.swift in Sources */,
+				0EEF2FE02A57458600A2CE77 /* AddContactViewModel.swift in Sources */,
 				0EEF2FD52A51CC9100A2CE77 /* Contact.swift in Sources */,
+				0EEF2FDE2A5332A100A2CE77 /* AddContactView.swift in Sources */,
 				0EEF2FC12A51BB7700A2CE77 /* ContentView.swift in Sources */,
 				0EEF2FBF2A51BB7700A2CE77 /* ContactAppSwiftUIApp.swift in Sources */,
 			);

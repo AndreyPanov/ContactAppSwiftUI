@@ -20,7 +20,6 @@ struct ContactDetailView: View {
                 ContactDetailCell(leftText: "Company", rightText: contact.company)
                 ContactDetailCell(leftText: "Email", rightText: contact.email)
                 Spacer()
-                Button(StringProtocol, action: <#T##() -> Void#>)
             }
         }
     }

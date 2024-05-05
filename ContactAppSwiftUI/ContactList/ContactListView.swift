@@ -9,6 +9,9 @@ import SwiftUI
 
 struct ContactListView: View {
     let contacts = Contact.MOCK_CONTACTS
+    
+    @State private var showingSheet = false
+    
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -28,11 +31,14 @@ struct ContactListView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
-                        
+                        showingSheet.toggle()
                     } label: {
                         Image(systemName: "plus")
                             .resizable()
                             .imageScale(.large)
+                    }
+                    .sheet(isPresented: $showingSheet) {
+                        AddContactView()
                     }
                 }
             }
